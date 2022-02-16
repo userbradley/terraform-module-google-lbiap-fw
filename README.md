@@ -5,8 +5,8 @@ This is a terraform module that consists of the IP address that google do IAP ov
 ##Using
 
 ```terraform
-module "api" {
-  source = "git@github.com:userbradley/terraform-module-google-lbiap-fw.git?ref=tags/v0.0.1"
+module "iap" {
+  source = "git@github.com:userbradley/terraform-module-google-lbiap-fw.git?ref=tags/v0.0.2"
 }
 ```
 
